@@ -1,0 +1,20 @@
+.button {
+  background-color: teal;
+  color: white;
+  padding: 8px 25px;
+  font-size: 16px;
+  border: 2px solid teal;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  background-color: transparent;
+  color: teal;
+}
+
+.button:focus {
+  outline: none;
+}

@@ -1,0 +1,23 @@
+.formgroup {
+  padding: 15px 30px;
+}
+
+.formgroup label {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.formgroup input {
+  display: block;
+  margin-top: 12px;
+  padding: 6px;
+  border: 1px solid #777;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.formgroup input:focus {
+  outline: none;
+  background-color: #ddd;
+  font-size: 15px;
+}
